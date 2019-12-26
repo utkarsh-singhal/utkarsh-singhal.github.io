@@ -1,0 +1,109 @@
+[
+{
+	"uri": "http://utkarshsinghal.com/",
+	"title": "",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://utkarshsinghal.com/tags/algorithm/",
+	"title": "algorithm",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://utkarshsinghal.com/tags/iteration/",
+	"title": "iteration",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://utkarshsinghal.com/posts/",
+	"title": "Posts",
+	"tags": ["index"],
+	"categories": [],
+	"series": [],
+	"description": "Post page",
+	"content": ""
+},
+{
+	"uri": "http://utkarshsinghal.com/tags/recursion/",
+	"title": "recursion",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://utkarshsinghal.com/posts/emoji-support/",
+	"title": "Recursion to Iteration",
+	"tags": ["recursion", "iteration", "stack", "algorithm"],
+	"categories": [],
+	"series": [],
+	"description": "Generic Approach to convert recursion to iteration",
+	"content": "We often perfer recursion over iteration while solving problems on tree, dfs, bfs and linkedlist.\nLet see one simple inorder traversal of tree using recursion.\n1 2 3 4 5 6 7 8 9 10  void inorder(Node root) { // State 1 \tinorder(root.left); // State 2 \tSystem.out.println(root.data); // State 3 \tinorder(root.right); // State 4 remove }   As every recursion internally used the recursion stack, let see the stack trace of the above code with an example.\nA stack frame will store the information about the state which is done till now.\n In above image we only remove a frame from stack when all the states of that frame are done.\nWe will keep 4 States current stackframe state represent the next state to be exceuted\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32  void inorder(Node root) { Stack\u0026lt;StackFrame\u0026gt; stack = new Stack\u0026lt;\u0026gt;(); StackFrame first = new StackFrame(root, \u0026#34;S1\u0026#34;); stack.push(first); while (stack.size() \u0026gt; 0) { StackFrame top = stack.peek(); if (top.state == \u0026#34;S1\u0026#34;) { // Update the State of top frame \tStack.peek().state = \u0026#34;S2\u0026#34;; StackFrame first = new StackFrame(top.root.left, \u0026#34;S1\u0026#34;); stack.push(first); } else if (top.state == \u0026#34;S2\u0026#34;) { // Update the State of top frame \tStack.peek().state = \u0026#34;S3\u0026#34;; print(top.root.data); } else if (top.state == \u0026#34;S3\u0026#34;) { // Update the State of top frame \tStack.peek().state = \u0026#34;S4\u0026#34;; StackFrame first = new StackFrame(top.root.right, \u0026#34;S1\u0026#34;); stack.push(first); } else { // As all the states are done pop the frame from stack \tStack.pop(); } } } class StackFrame { Node root; String state; }   In first go this seems a bit lengthy code but using this conversion we can convert any recusion to iteration.\n"
+},
+{
+	"uri": "http://utkarshsinghal.com/tags/stack/",
+	"title": "stack",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://utkarshsinghal.com/tags/",
+	"title": "Tags",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://utkarshsinghal.com/about/",
+	"title": "About",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "Utkarsh, Tech Made Easy",
+	"content": "Hi\n"
+},
+{
+	"uri": "http://utkarshsinghal.com/categories/",
+	"title": "Categories",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://utkarshsinghal.com/notes/",
+	"title": "Notes",
+	"tags": ["index"],
+	"categories": [],
+	"series": [],
+	"description": "Note page",
+	"content": ""
+},
+{
+	"uri": "http://utkarshsinghal.com/series/",
+	"title": "Series",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+}]

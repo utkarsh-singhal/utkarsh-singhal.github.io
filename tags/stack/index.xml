@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stack on Tech Art</title>
-    <link>http://utkarshsinghal.com/tags/stack/</link>
+    <link>https://utkarshsinghal.com/tags/stack/</link>
     <description>Recent content in stack on Tech Art</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -11,17 +11,17 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 26 Dec 2019 12:00:06 +0900</lastBuildDate>
     
-        <atom:link href="http://utkarshsinghal.com/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://utkarshsinghal.com/tags/stack/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Recursion to Iteration</title>
-        <link>http://utkarshsinghal.com/posts/emoji-support/</link>
+        <link>https://utkarshsinghal.com/posts/emoji-support/</link>
         <pubDate>Thu, 26 Dec 2019 12:00:06 +0900</pubDate>
         <author>utkarsh.iitropar@gmail.com (Utkarsh Singhal)</author>
-        <guid>http://utkarshsinghal.com/posts/emoji-support/</guid>
+        <guid>https://utkarshsinghal.com/posts/emoji-support/</guid>
         <description>We often perfer recursion over iteration while solving problems on tree, dfs, bfs and linkedlist.
 Let see one simple inorder traversal of tree using recursion.
 1 2 3 4 5 6 7 8 9 10  void inorder(Node root) { // State 1 	inorder(root.left); // State 2 	System.out.println(root.data); // State 3 	inorder(root.right); // State 4 remove }   As every recursion internally used the recursion stack, let see the stack trace of the above code with an example.</description>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Home</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 27 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>Recursion to Iteration</title>
+      <link>/post/recusion_to_iteration/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/post/recusion_to_iteration/</guid>
+      <description>&lt;p&gt;We often perfer recursion over iteration while solving problems on tree, dfs, bfs and linkedlist.&lt;/p&gt;
+&lt;p&gt;Let see one simple inorder traversal of tree using recursion.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;void inorder(Node root) {
+	// State 1
+	inorder(root.left);
+	// State 2
+	System.out.println(root.data);
+	// State 3
+	inorder(root.right);
+	// State 4 remove
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As every recursion internally used the recursion stack, let see the stack trace of the above code with an example.&lt;/p&gt;
+&lt;p&gt;A stack frame will store the information about the state which is done till now.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;recusion_to_iteration.png&#34; &gt;
+&lt;img data-src=&#34;recusion_to_iteration.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In above image we only remove a frame from stack when all the states of that frame are done.&lt;/p&gt;
+&lt;p&gt;We will keep 4 States current stackframe state represent the next state to be exceuted&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;void inorder(Node root) {
+	Stack&amp;lt;StackFrame&amp;gt; stack = new Stack&amp;lt;&amp;gt;();
+	StackFrame first = new StackFrame(root, &amp;quot;S1&amp;quot;);
+	stack.push(first);
+	while (stack.size() &amp;gt; 0) {
+		StackFrame top = stack.peek();
+		if (top.state == &amp;quot;S1&amp;quot;) {
+			// Update the State of top frame
+			Stack.peek().state = &amp;quot;S2&amp;quot;;
+			StackFrame first = new StackFrame(top.root.left, &amp;quot;S1&amp;quot;);
+			stack.push(first);
+		} else if (top.state == &amp;quot;S2&amp;quot;) {
+			// Update the State of top frame
+			Stack.peek().state = &amp;quot;S3&amp;quot;;
+			print(top.root.data);
+		} else if (top.state == &amp;quot;S3&amp;quot;) {
+			// Update the State of top frame
+			Stack.peek().state = &amp;quot;S4&amp;quot;;
+			StackFrame first = new StackFrame(top.root.right, &amp;quot;S1&amp;quot;);
+			stack.push(first);
+		} else {
+			// As all the states are done pop the frame from stack
+			Stack.pop();
+		}
+	}
+}
+
+
+class StackFrame {
+	Node root;
+	String state;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In first go this seems a bit lengthy code but using this conversion we can convert any recusion to iteration.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

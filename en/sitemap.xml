@@ -3,422 +3,422 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/en/</loc>
+    <loc>https://utkarshsinghal.com/en/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/"
+                href="https://utkarshsinghal.com/ko/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/"
+                href="https://utkarshsinghal.com/en/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/en/categories/</loc>
+    <loc>https://utkarshsinghal.com/en/categories/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/categories/"
+                href="https://utkarshsinghal.com/ko/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/categories/"
+                href="https://utkarshsinghal.com/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/css/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/css/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/html/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/html/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/markdown/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/markdown/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/markdown-syntax/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/markdown-syntax/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/posts/"
+                href="https://utkarshsinghal.com/ko/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/posts/"
+                href="https://utkarshsinghal.com/en/posts/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/en/series/</loc>
+    <loc>https://utkarshsinghal.com/en/series/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/series/"
+                href="https://utkarshsinghal.com/ko/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/series/"
+                href="https://utkarshsinghal.com/en/series/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/en/categories/syntax/</loc>
+    <loc>https://utkarshsinghal.com/en/categories/syntax/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/tags/"
+                href="https://utkarshsinghal.com/ko/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/tags/"
+                href="https://utkarshsinghal.com/en/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/en/categories/themes/</loc>
+    <loc>https://utkarshsinghal.com/en/categories/themes/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/themes/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/themes/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/series/themes-guide/</loc>
+    <loc>https://utkarshsinghal.com/en/series/themes-guide/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/privacy/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/privacy/</loc>
     <lastmod>2019-12-19T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/rich-content/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/rich-content/</loc>
     <lastmod>2019-12-19T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/shortcodes/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/shortcodes/</loc>
     <lastmod>2019-12-19T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/math-typesetting/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/math-typesetting/</loc>
     <lastmod>2019-12-17T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/amoji/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/amoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/bamoji/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/bamoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/emoji/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/emoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/emoji-support/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/emoji-support/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/gamoji/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/gamoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/namoji/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/namoji/</loc>
     <lastmod>2019-12-16T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/categories/diagram/</loc>
+    <loc>https://utkarshsinghal.com/en/categories/diagram/</loc>
     <lastmod>2019-11-18T21:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/test-viz/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/test-viz/</loc>
     <lastmod>2019-11-18T21:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/test-wavedrom/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/test-wavedrom/</loc>
     <lastmod>2019-11-18T18:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/test-chartjs/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/test-chartjs/</loc>
     <lastmod>2019-11-18T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/test-js-sequence-diagrams/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/test-js-sequence-diagrams/</loc>
     <lastmod>2019-11-18T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/diagram/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/diagram/</loc>
     <lastmod>2019-11-17T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/test-mermaid/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/test-mermaid/</loc>
     <lastmod>2019-11-17T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/categories/math/</loc>
+    <loc>https://utkarshsinghal.com/en/categories/math/</loc>
     <lastmod>2019-11-16T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/test-mathjax/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/test-mathjax/</loc>
     <lastmod>2019-11-16T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/test-katext/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/test-katext/</loc>
     <lastmod>2019-11-15T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/test-flowchart/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/test-flowchart/</loc>
     <lastmod>2019-11-14T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/pt/dir/fourth/</loc>
+    <loc>https://utkarshsinghal.com/en/pt/dir/fourth/</loc>
     <lastmod>2019-10-30T20:48:10+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/pt/</loc>
+    <loc>https://utkarshsinghal.com/en/pt/</loc>
     <lastmod>2019-10-30T20:48:10+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/pt/third/</loc>
+    <loc>https://utkarshsinghal.com/en/pt/third/</loc>
     <lastmod>2019-10-30T20:46:30+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/pt/second/</loc>
+    <loc>https://utkarshsinghal.com/en/pt/second/</loc>
     <lastmod>2019-10-30T20:45:24+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/pt/first/</loc>
+    <loc>https://utkarshsinghal.com/en/pt/first/</loc>
     <lastmod>2019-10-30T19:45:20+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/archive/</loc>
+    <loc>https://utkarshsinghal.com/en/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/archive/"
+                href="https://utkarshsinghal.com/ko/archive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/archive/"
+                href="https://utkarshsinghal.com/en/archive/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/en/posts/placeholder-text/</loc>
+    <loc>https://utkarshsinghal.com/en/posts/placeholder-text/</loc>
     <lastmod>2019-03-09T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/text/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/text/</loc>
     <lastmod>2019-03-09T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/about/</loc>
+    <loc>https://utkarshsinghal.com/en/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/about/"
+                href="https://utkarshsinghal.com/ko/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/about/"
+                href="https://utkarshsinghal.com/en/about/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/en/gallery/</loc>
+    <loc>https://utkarshsinghal.com/en/gallery/</loc>
     <lastmod>2018-10-12T10:20:16+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/gallery/"
+                href="https://utkarshsinghal.com/ko/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/gallery/"
+                href="https://utkarshsinghal.com/en/gallery/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/en/gallery/photo/</loc>
+    <loc>https://utkarshsinghal.com/en/gallery/photo/</loc>
     <lastmod>2018-10-12T10:20:16+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/gallery/photo/"
+                href="https://utkarshsinghal.com/ko/gallery/photo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/gallery/photo/"
+                href="https://utkarshsinghal.com/en/gallery/photo/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/en/gallery/cartoon/</loc>
+    <loc>https://utkarshsinghal.com/en/gallery/cartoon/</loc>
     <lastmod>2018-10-11T10:20:16+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/gallery/cartoon/"
+                href="https://utkarshsinghal.com/ko/gallery/cartoon/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/gallery/cartoon/"
+                href="https://utkarshsinghal.com/en/gallery/cartoon/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/en/categories/hugo/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/hugo/</loc>
     <lastmod>2017-10-11T10:33:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/hugo/</loc>
+    <loc>https://utkarshsinghal.com/en/categories/hugo/</loc>
     <lastmod>2017-10-11T10:33:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/notes/</loc>
+    <loc>https://utkarshsinghal.com/en/notes/</loc>
     <lastmod>2017-10-11T10:33:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/notes/hugo/syntax-highlight/</loc>
+    <loc>https://utkarshsinghal.com/en/notes/hugo/syntax-highlight/</loc>
     <lastmod>2017-10-11T10:33:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/blogging/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/blogging/</loc>
     <lastmod>2016-10-09T11:44:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/categories/ctest/</loc>
+    <loc>https://utkarshsinghal.com/en/categories/ctest/</loc>
     <lastmod>2016-10-09T11:44:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/development/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/development/</loc>
     <lastmod>2016-10-09T11:44:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/fast/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/fast/</loc>
     <lastmod>2016-10-09T11:44:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/tags/go/</loc>
+    <loc>https://utkarshsinghal.com/en/tags/go/</loc>
     <lastmod>2016-10-09T11:44:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/series/go-web-dev/</loc>
+    <loc>https://utkarshsinghal.com/en/series/go-web-dev/</loc>
     <lastmod>2016-10-09T11:44:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/notes/sublist/note-1/</loc>
+    <loc>https://utkarshsinghal.com/en/notes/sublist/note-1/</loc>
     <lastmod>2016-10-09T11:44:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/notes/sublist/note-2/</loc>
+    <loc>https://utkarshsinghal.com/en/notes/sublist/note-2/</loc>
     <lastmod>2016-10-09T11:44:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/notes/sublist/note-3/</loc>
+    <loc>https://utkarshsinghal.com/en/notes/sublist/note-3/</loc>
     <lastmod>2016-10-09T11:44:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/notes/sublist/go/go-1/go-1-1/go-1/</loc>
+    <loc>https://utkarshsinghal.com/en/notes/sublist/go/go-1/go-1-1/go-1/</loc>
     <lastmod>2012-11-01T10:33:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/notes/sublist/go/go-1/go-2/</loc>
+    <loc>https://utkarshsinghal.com/en/notes/sublist/go/go-1/go-2/</loc>
     <lastmod>2012-11-01T10:33:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/notes/sublist/go/go-4/</loc>
+    <loc>https://utkarshsinghal.com/en/notes/sublist/go/go-4/</loc>
     <lastmod>2012-11-01T10:33:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/notes/sublist/go/go-1/go-1-1/go-1-1-1/go-5/</loc>
+    <loc>https://utkarshsinghal.com/en/notes/sublist/go/go-1/go-1-1/go-1-1-1/go-5/</loc>
     <lastmod>2012-11-01T10:33:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/en/notes/sublist/</loc>
+    <loc>https://utkarshsinghal.com/en/notes/sublist/</loc>
     <lastmod>2012-10-09T11:44:14+09:00</lastmod>
   </url>
   

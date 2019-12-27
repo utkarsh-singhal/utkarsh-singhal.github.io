@@ -1,6 +1,6 @@
 [
 {
-	"uri": "http://example.org/ko/archive/",
+	"uri": "https://utkarshsinghal.com/ko/archive/",
 	"title": "Archive",
 	"tags": [],
 	"categories": [],
@@ -9,7 +9,7 @@
 	"content": "archive page\n"
 },
 {
-	"uri": "http://example.org/ko/about/",
+	"uri": "https://utkarshsinghal.com/ko/about/",
 	"title": "About",
 	"tags": [],
 	"categories": [],
@@ -18,7 +18,7 @@
 	"content": ""
 },
 {
-	"uri": "http://example.org/ko/",
+	"uri": "https://utkarshsinghal.com/ko/",
 	"title": "Hugo Zzo Theme",
 	"tags": [],
 	"categories": [],
@@ -27,7 +27,7 @@
 	"content": ""
 },
 {
-	"uri": "http://example.org/ko/gallery/",
+	"uri": "https://utkarshsinghal.com/ko/gallery/",
 	"title": "Galleries",
 	"tags": [],
 	"categories": [],
@@ -36,7 +36,7 @@
 	"content": ""
 },
 {
-	"uri": "http://example.org/ko/gallery/photo/",
+	"uri": "https://utkarshsinghal.com/ko/gallery/photo/",
 	"title": "Photo",
 	"tags": [],
 	"categories": [],
@@ -45,7 +45,7 @@
 	"content": ""
 },
 {
-	"uri": "http://example.org/ko/gallery/cartoon/",
+	"uri": "https://utkarshsinghal.com/ko/gallery/cartoon/",
 	"title": "Cartoon",
 	"tags": [],
 	"categories": [],
@@ -54,7 +54,7 @@
 	"content": ""
 },
 {
-	"uri": "http://example.org/ko/categories/",
+	"uri": "https://utkarshsinghal.com/ko/categories/",
 	"title": "Categories",
 	"tags": [],
 	"categories": [],
@@ -63,7 +63,7 @@
 	"content": ""
 },
 {
-	"uri": "http://example.org/ko/posts/",
+	"uri": "https://utkarshsinghal.com/ko/posts/",
 	"title": "Posts",
 	"tags": ["index"],
 	"categories": [],
@@ -72,7 +72,7 @@
 	"content": ""
 },
 {
-	"uri": "http://example.org/ko/series/",
+	"uri": "https://utkarshsinghal.com/ko/series/",
 	"title": "Series",
 	"tags": [],
 	"categories": [],
@@ -81,7 +81,7 @@
 	"content": ""
 },
 {
-	"uri": "http://example.org/ko/tags/",
+	"uri": "https://utkarshsinghal.com/ko/tags/",
 	"title": "Tags",
 	"tags": [],
 	"categories": [],

@@ -560,13 +560,13 @@ A stack frame will store the information about the state which is done until now
       <p>We often prefer recursion over iteration while solving problems on tree, dfs, bfs and linked list.</p>
 <p>Let see one simple inorder traversal of a tree using recursion.</p>
 <pre><code class="language-java">void inorder(Node root) {
- // State 1
- inorder(root.left);
- // State 2
- System.out.println(root.data);
- // State 3
- inorder(root.right);
- // State 4 remove
+	// State 1
+	inorder(root.left);
+	// State 2
+	System.out.println(root.data);
+	// State 3
+	inorder(root.right);
+	// State 4 remove
 }
 </code></pre>
 <p>As every recursion internally used the recursion stack, let see the stack trace of the above code with an example.</p>

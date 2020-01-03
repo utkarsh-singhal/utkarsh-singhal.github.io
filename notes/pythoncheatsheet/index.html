@@ -480,16 +480,6 @@
 
   </div>
   
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/notes/linkedlist/">LinkedList</a>
-
-  </div>
-  
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/notes/array/">Array</a>
-
-  </div>
-  
   <div class="docs-toc-item active">
     <a class="docs-toc-link" href="/notes/pythoncheatsheet/">Python Cheat Sheet</a>
 
@@ -511,6 +501,7 @@
     <li><a href="#list-in-python">List in Python</a></li>
     <li><a href="#dictionary-in-python">Dictionary in Python</a></li>
     <li><a href="#lambda">Lambda</a></li>
+    <li><a href="#stack-queue-and-priorityqueue">Stack, Queue and PriorityQueue</a></li>
   </ul>
 </nav>
 
@@ -636,6 +627,62 @@
   y = squareLambda(2)
   y = square(2)
   Both does the same thing
+
+  &quot;&quot;&quot; 
+    lambda with filter
+    filter(function , list):
+      function  =&gt; True or False
+      list      =&gt; to list which we need to filter
+
+    Function will return the list after applying function to all the elements
+  &quot;&quot;&quot;
+  data = [1,2,3,4]
+  list_data = list(filter(lambda x: (x%2 != 0), data))
+
+
+  &quot;&quot;&quot; 
+    lambda with map
+    filter(function , list):
+      function  =&gt; return value
+      list      =&gt; to list which we need to filter
+
+    Function will return the list after applying function to all the elements
+  &quot;&quot;&quot;
+  data = [1,2,3,4]
+  list_data = list(map(lambda x: x**2, data))
+
+  
+</code></pre>
+<h2 id="stack-queue-and-priorityqueue">Stack, Queue and PriorityQueue</h2>
+<p><strong>Queue</strong></p>
+<pre><code class="language-python">  import queue
+
+  &quot;&quot;&quot;
+    Methods supported
+    1) q.get()      Remove and return an item from the queue
+    2) q.put(item)  Add item in the queue
+    3) q.qsize()    Size of the queue
+    4) q.empty()    Check if the queue is empty or not
+    5) q.queue[0]   Get the top element from queue
+
+    Type of queues:
+
+    1) FIFO (Queue)
+      q = queue.Queue(maxsize=n)
+
+    2) LIFO (Stack)
+      q = queue.LifoQueue(maxsize=n)
+
+    3) PriorityQueue
+      q = queue.PriorityQueue(maxsize=n)
+      Format of data in this queue is a tuple in the form: (priority_number, data)
+      By default it is a min heap
+  &quot;&quot;&quot;
+
+
+  q = queue.Queue()
+  
+
 </code></pre>
 
           </div>

@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Complete study of arrays, with concepts and best examples.">
+  <meta name="description" content="SDE II">
 
   
-  <link rel="alternate" hreflang="en-us" href="/notes/array/">
+  <link rel="alternate" hreflang="en-us" href="/notes/pythoncheatsheet/">
 
   
 
@@ -203,14 +203,14 @@
 
 
   
-  <link rel="alternate" href="/notes/array/index.xml" type="application/rss+xml" title="Home">
+  <link rel="alternate" href="/notes/pythoncheatsheet/index.xml" type="application/rss+xml" title="Home">
   
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/notes/array/">
+  <link rel="canonical" href="/notes/pythoncheatsheet/">
 
   
   
@@ -223,9 +223,9 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Home">
-  <meta property="og:url" content="/notes/array/">
-  <meta property="og:title" content="Array | Home">
-  <meta property="og:description" content="Complete study of arrays, with concepts and best examples."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:url" content="/notes/pythoncheatsheet/">
+  <meta property="og:title" content="Python Cheat Sheet | Home">
+  <meta property="og:description" content="SDE II"><meta property="og:image" content="/img/icon-192.png">
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2018-09-09T00:00:00&#43;00:00">
@@ -245,7 +245,7 @@
 
 
 
-  <title>Array | Home</title>
+  <title>Python Cheat Sheet | Home</title>
 
 </head>
 
@@ -485,12 +485,12 @@
 
   </div>
   
-  <div class="docs-toc-item active">
+  <div class="docs-toc-item">
     <a class="docs-toc-link" href="/notes/array/">Array</a>
 
   </div>
   
-  <div class="docs-toc-item">
+  <div class="docs-toc-item active">
     <a class="docs-toc-link" href="/notes/pythoncheatsheet/">Python Cheat Sheet</a>
 
   </div>
@@ -508,7 +508,9 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#array">Array</a></li>
+    <li><a href="#list-in-python">List in Python</a></li>
+    <li><a href="#dictionary-in-python">Dictionary in Python</a></li>
+    <li><a href="#lambda">Lambda</a></li>
   </ul>
 </nav>
 
@@ -521,10 +523,120 @@
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Array</h1>
+          <h1>Python Cheat Sheet</h1>
 
           <div class="article-style">
-            <h2 id="array">Array</h2>
+            <h2 id="list-in-python">List in Python</h2>
+<p><strong>Declare list</strong></p>
+<pre><code class="language-python">  data = [1,2,3,4]
+</code></pre>
+<p><strong>Add value in list</strong></p>
+<pre><code class="language-python">  # Adding value in x
+  data.append(x)
+</code></pre>
+<p><strong>Get at index in list</strong></p>
+<pre><code>  data[index]
+</code></pre>
+<p><strong>Get sublist from a to b+1</strong></p>
+<pre><code>  dataList = data[a:b+1] // Sub list from [a,b]
+  dataList = data[:b+1] // Sub list from [0, b]
+  dataList = data[b:]   // Sub list from [b, len(data)-1]
+</code></pre>
+<p><strong>Length of list</strong></p>
+<pre><code>  len(data)
+</code></pre>
+<p><strong>Remove value from list</strong></p>
+<pre><code>  data.remove(x)  // Remove value x
+</code></pre>
+<p><strong>Remove from any index</strong></p>
+<pre><code>  data.pop(index) // Remove value at index
+</code></pre>
+<p><strong>1-D Array with size n</strong></p>
+<pre><code>  [0 for i in range(n)]
+</code></pre>
+<p><strong>2-D Array with size m,n</strong></p>
+<pre><code>  [[0 for i in range(n)] for j in range(m)]
+</code></pre>
+<p><strong>Iterate over list</strong></p>
+<pre><code>  for (index, value) in enumerate(data):
+    print(index, end = &quot; &quot;)
+    print(value, end = &quot; &quot;)
+</code></pre>
+<p><strong>List Comprehensions</strong></p>
+<pre><code>  { value for value in iterable }
+
+  data = ['a', 'b', 'c', 'd']
+
+  data_list = [i for i in data if i != 'a']
+  print(data_list)
+
+  data = [i * j for i in [20, 40, 60] for j in [2, 4, 6]]
+  print(data)
+
+</code></pre>
+<p><strong>Sort list</strong></p>
+<pre><code>  sort(key, reverse) vs sorted(iterable, key, reverse)
+  sort() makes changes to the original sequence
+
+  sorted() returns the new list
+
+  data.sort()
+  sorted_data = sorted(data)
+
+  Key(optional): A function that would serve as a key or a basis of sort comparison.
+  Reverse(optional): If set True, then the iterable would be sorted
+                    in reverse (descending) order, by default it is set as False.
+
+  def keyFunc(data):  
+      return data[1]
+
+  keyFuncLambda = lambda data: data[1]
+  
+  data = [(1, 'utkarsh'), (3, 'singhal'), (2, 'amit')]
+
+  data.sort(key = keyFunc)   
+  print(data)  
+      
+  data.sort(key = keyFunc, reverse = True)  
+  print(data)
+      
+  data1 = sorted(data, key = keyFunc, reverse = True)  
+  print(data1)
+</code></pre>
+<h2 id="dictionary-in-python">Dictionary in Python</h2>
+<p><strong>Declare dict</strong></p>
+<pre><code>  map = {'a': 1, 'b': 2, 'c':3}
+</code></pre>
+<p><strong>Get from dict</strong></p>
+<pre><code>  map = {'a': 1, 'b': 2, 'c':3}
+  value = map['a']
+</code></pre>
+<p><strong>Add in dict</strong></p>
+<pre><code>  map = {'a': 1, 'b': 2, 'c':3}
+  map['d'] = 4
+</code></pre>
+<p><strong>Dictionary Comprehension</strong></p>
+<pre><code>  { key: value for (key, value) in iterable }
+  dict = {
+    x: x**2 for x in [1,2,3,4,5]
+  }
+  print (dict) 
+</code></pre>
+<h2 id="lambda">Lambda</h2>
+<p><strong>Lambda creation</strong></p>
+<pre><code class="language-python">  &quot;&quot;&quot; 
+      function without name is called Anonymous functions,
+      we can create anonymous functions using lambda
+  &quot;&quot;&quot;
+  squareLambda = lambda x: x**2
+
+  def square(x):
+    return x**2
+  
+  y = squareLambda(2)
+  y = square(2)
+  Both does the same thing
+</code></pre>
 
           </div>
 
